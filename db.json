@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "restaurants": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": 2,
+      "name": "Bhurj Khalifa",
+      "address": "Dubai"
+    },
+    {
+      "name": "taj hotel 1",
+      "address": "mumbai 1",
+      "id": 3
     }
   ],
-  "comments": [
+  "User": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "krish",
+      "email": "krish@gmail.com",
+      "password": "krish123"
+    },
+    {
+      "name": "rajesh",
+      "email": "ra@gmail.com",
+      "password": "123",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
